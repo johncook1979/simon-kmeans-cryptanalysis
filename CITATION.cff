@@ -1,0 +1,20 @@
+title: 'RAID-Crypt: Rounding Alignment of Intermediate Differentials for Cryptanalysis of Lightweight Encryption'
+abstract: The first lightweight encryption algorithms suitable for the Internet of Things (IoT), SIMON and SPECK, were introduced in 2013 and were immediately subjected to security evaluations utilising cryptanalysis techniques. However, cryptanalysis is inefficient, and while heuristic and sampling methods have improved efficiency, the random nature of heuristics hinders reproducibility and impedes further advances. While Machine Learning (ML) techniques, such as Deep Neural Networks (DNN), have had limited success against SPECK by creating an effective Difference Distribution Table (DDT), they remain less efficient than heuristic strategies. Furthermore, DDT and partial DDTs (pDDTs), which are often utilised in differential cryptanalysis, contain limited information, which hinders the ability of ML models to predict high-probability differentials accurately. To improve model accuracy, researchers often utilise feature engineering techniques to enhance data quality and extract additional features. However, additional features, such as Boolean data, can introduce a floating-point centroid with ML models such as k-means. Identifying these limitations, we introduce a technique utilising Rounding Alignment of Intermediate Differentials, which we have called RAID-Crypt. We begin by enriching the information in a pDDT by leveraging the elegant, intricate, and predictable nature of powers of two to feature engineer additional differential features. Utilising the additional features enables us to introduce a method for centroid rounding in k-means clustering, which increases the number of rounds to $20$ while reducing time by up to $ 65\%$, producing state-of-the-art results. Through a process of analysing and comparing the performance of several ML models, we identify five key features crucial for selecting an ML model, which is further validated through Bayesian Optimisation. Our technique presents robust and reproducible results, demonstrating the effectiveness of feature engineering differentials and centroid rounding. The code utilised in this research is available at: https://github.com/johncook1979/simon-kmeans-cryptanalysis.
+repository-code: https://github.com/johncook1979/simon-kmeans-cryptanalysis/
+version: 1.0.0
+date-released: 2026-06-05
+message: If you use this software, please cite it as below.
+authors:
+  - given-names: Jonathan
+    family-names: Cook
+    orcid: "https://orcid.org/0000-0001-8113-1296"
+    affiliation: School of Computing Mathematics and Engineering Charles Sturt University, Port Macquarie, NSW, Australia
+  - given-names: Sabih
+    family-names: Rehman
+    orcid: "https://orcid.org/0000-0001-7717-2773"
+    affiliation: School of Computing Mathematics and Engineering Charles Sturt University, Port Macquarie, NSW, Australia
+  - given-names: M. Arif
+    family-names: Khan
+    orcid: "https://orcid.org/0000-0001-6112-8874"
+    affiliation: ' School of Computing, Mathematics and Engineering, Charles Sturt University, Wagga Wagga, NSW, Australia'
+cff-version: 1.2.0
