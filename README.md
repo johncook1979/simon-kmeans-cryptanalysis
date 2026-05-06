@@ -28,16 +28,15 @@ Cook, J., Rehman, S. ur and Arif Khan, M. (2026). RAID-Crypt: Rounding Alignment
 J. Cook, S. ur Rehman, and M. Arif Khan, “RAID-Crypt: Rounding Alignment of Intermediate Differentials for Cryptanalysis of Lightweight Encryption,” IEEE Access, pp. 1–1, 2026, doi: https://doi.org/10.1109/ACCESS.2026.3689918.
 
 ### BibTex
-@ARTICLE{cook2026raid,
-    author={Cook, Jonathan and Rehman, Sabih ur and Arif Khan, M.},
-    journal={IEEE Access},
-    title={RAID-Crypt: Rounding Alignment of Intermediate Differentials for Cryptanalysis of Lightweight Encryption},
-    year={2026},
-    volume={},
-    number={},
-    pages={1-1},
-    doi={10.1109/ACCESS.2026.3689918}
+@ARTICLE{cook2026raid,  
+  author={Cook, Jonathan and Rehman, Sabih ur and Arif Khan, M.},  
+  journal={IEEE Access},   
+  title={RAID-Crypt: Rounding Alignment of Intermediate Differentials for Cryptanalysis of Lightweight Encryption},   
+  year={2026},  
+  volume={},  
+  number={},  
+  pages={1-1},  
+  doi={10.1109/ACCESS.2026.3689918}  
 }
-
 ***
 Our previous work can be found [here](https://github.com/johncook1979/simon-cryptanalysis)
